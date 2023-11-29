@@ -1,0 +1,21 @@
+.reviews-container {
+  margin-top: 40px;
+}
+
+.reviews-list {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.reviews-list li {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.reviews-list p {
+  margin-bottom: 10px;
+}

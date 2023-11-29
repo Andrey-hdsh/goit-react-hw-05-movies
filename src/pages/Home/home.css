@@ -1,0 +1,47 @@
+
+
+.container-home h1 {
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 42px;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  row-gap: 40px;
+}
+
+.movie-item {
+  width: 250px;
+  height: 437px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.movie-item:hover {
+  transform: scale(1.01);
+}
+
+.movie-item a {
+  text-decoration: none;
+  color: #333;
+}
+
+.movie-item img {
+  max-width: 100%;
+  height: 375px;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.movie-item h3 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.movie-item p {
+  font-size: 14px;
+}
