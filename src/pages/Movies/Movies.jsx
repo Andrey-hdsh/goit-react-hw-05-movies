@@ -8,7 +8,7 @@ import './movies.css'
 const Movies = () => {
   const [movies, setMovies] = useState([]);
   const [isLoading, setLoading] = useState(false);
-  const [setError] = useState(false);
+  const [error ,setError] = useState(false);
   const location = useLocation();
 
   const [serchParams, setSerchParams] = useSearchParams();
@@ -33,13 +33,12 @@ const Movies = () => {
         }
       } catch (error) {
         setError(true);
-        console.error(error);
       } finally {
         setLoading(false);
       }
     };
     getSearchData();
-  }, [paramsUrl , setError]);
+  }, [paramsUrl , setError ]);
 
   const handleSubmit = evt => {
     evt.preventDefault();
