@@ -39,7 +39,7 @@ const Movies = () => {
       }
     };
     getSearchData();
-  }, [paramsUrl]);
+  }, [paramsUrl , setError]);
 
   const handleSubmit = evt => {
     evt.preventDefault();
