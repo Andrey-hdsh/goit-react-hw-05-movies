@@ -21,7 +21,7 @@ export const fetchQuery = async query => {
     );
     return response.data.results;
   } catch (error) {
-    console.log(error);
+    throw error;
   }
 };
 
