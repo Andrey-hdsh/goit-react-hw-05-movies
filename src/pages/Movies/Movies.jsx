@@ -40,7 +40,7 @@ const Movies = () => {
     getSearchData();
   }, [paramsUrl , setError ]);
 
-  const handleSubmit = evt => {
+  const handleSubmit = async evt => {
     evt.preventDefault();
     const targetQuery = evt.target.query.value.trim();
     if (targetQuery === '') {
